@@ -53,8 +53,13 @@ def create_pipeline(**kwargs):
             node(
                 make_scatter_plot,
                 inputs="example_iris_data",
-                outputs="iris_scatter_plot"
+                outputs="iris_scatter_plot@matplotlib"
                 ),
+            node(
+                lambda x: x,
+                inputs="iris_scatter_plot@matplotlib",
+                outputs="iris_scatter_plot@base64"
+            )
         ]
     )
 

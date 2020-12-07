@@ -47,6 +47,19 @@ example_iris_data:
   type: pandas.CSVDataSet
   filepath: data/01_raw/iris.csv
 
-iris_scatter_plot:
+
+iris_scatter_plot@matplotlib:
   type: kedro.extras.datasets.matplotlib.MatplotlibWriter
   filepath: data/iris.png
+
+iris_scatter_plot@bytes:
+  type: kedro1.io.byte_data_set.ByteDataset
+  filepath: data/iris.png
+
+iris_scatter_plot_base^4:
+  type: kedro1.io.base64_data_set.Base64Dataset
+  filepath: data/iris64.txt
+
+
+
+

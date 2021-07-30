@@ -14,3 +14,9 @@ Sharing top billing on the list of data science capabilities, machine learning a
 If we look at the hierarchy of needs in data science implementations, we’ll see that the next step after gathering your data for analysis is data engineering. This discipline is not to be underestimated, as it enables effective data storing and reliable data flow while taking charge of the infrastructure.
 
 ![Data Heirarchy](https://github.com/adharangaonkar/DataEngineeringProjects/blob/main/images/data%20heirarchy.png?raw=true "Image Classes")
+
+
+## References
+
+* [Towards Data Science](https://towardsdatascience.com/improving-data-engineering-workflows-with-end-to-end-data-observability-2fea930d8333)
+* [Alexsoft](https://www.altexsoft.com/blog/datascience/what-is-data-engineering-explaining-data-pipeline-data-warehouse-and-data-engineer-role/)
